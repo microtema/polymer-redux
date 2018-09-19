@@ -1,0 +1,29 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/start-polymer3.js",
+  "moduleResolution": "node",
+  "npm": true,
+  "fragments": [
+    "src/lazy-element.js"
+  ],
+  "sources": [
+    "src/app.js",
+    "manifest/**",
+    "package.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "builds": [
+    {
+      "preset": "es6-unbundled"
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ],
+    "ignoreWarnings": []
+  }
+}

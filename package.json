@@ -2,7 +2,7 @@
   "name": "polymer-redux",
   "version": "1.0.0",
   "description": "Small SPA using Polymer in combination with Redux",
-  "main": "src/start-polymer3.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

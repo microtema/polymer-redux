@@ -1,0 +1,29 @@
+{
+  "name": "polymer-redux",
+  "version": "1.0.0",
+  "description": "Small SPA using Polymer in combination with Redux",
+  "main": "src/start-polymer3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microtema/polymer-redux.git"
+  },
+  "keywords": [
+    "Polymer",
+    "Redux",
+    "SPA"
+  ],
+  "author": "Mario Tema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microtema/polymer-redux/issues"
+  },
+  "homepage": "https://github.com/microtema/polymer-redux#readme",
+  "dependencies": {
+    "@polymer/paper-checkbox": "^3.0.1",
+    "@polymer/polymer": "^3.0.5",
+    "@webcomponents/webcomponentsjs": "^2.1.3"
+  }
+}

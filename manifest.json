@@ -1,3 +1,7 @@
 {
-
+  "name": "polymer-redux",
+  "short_name": "polymer-redux",
+  "description": "Small Simple Page Application",
+  "start_url": "/",
+  "display": "standalone"
 }
